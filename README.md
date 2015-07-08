@@ -48,7 +48,14 @@ socrata.get(url, qs).then(function (data) {
 | $offset | Offset count into the results to start at, used for paging | Starts at 0 |
 | $q | Performs a full text search for a value | No search |
 
-## Running the server
+## Start Developing
+
+1. Fork this repo on GitHub
+2. From your forked GitHub repo, using the SSH clone url option, clone into a new workspace on Cloud9 (c9.io)
+
+## Running the Server
+
+This is a client/server app, the server is written in express.js and currently has a brief angular.js client.  To run the server and develop:
 
 1) Open `app.js` and start the app by clicking on the "Run" button in the top menu.
 
@@ -57,6 +64,8 @@ socrata.get(url, qs).then(function (data) {
     $ node app.js
 
 3) Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'.  We recommend popping this tab out from Cloud9 into a separate Chrome browser.
+
+4) Restart or Stop and Start the server on iterations.
 
 ## Endpoints
 
