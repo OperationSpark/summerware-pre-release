@@ -1,3 +1,0 @@
-# summerware-pre-release
-
-A template app for Summerware hacking on the popo data...
