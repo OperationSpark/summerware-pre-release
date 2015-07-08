@@ -16,7 +16,7 @@ Given that the pre-release data is private, we need to use Basic auth _and_ prov
 
 **NOTE:** You will require a config file to be located at:
 
-    ~/.opspark/socrata/socrata-app.json
+    ~/.opspark/socrata-app.json
     
 Please contact Operation Spark for this super secret information.
 
@@ -51,7 +51,18 @@ socrata.get(url, qs).then(function (data) {
 ## Start Developing
 
 1. Fork this repo on GitHub
-2. From your forked GitHub repo, using the SSH clone url option, clone into a new workspace on Cloud9 (c9.io)
+2. From your forked GitHub repo, using the SSH clone url option, clone into a new workspace on Cloud9 (c9.io).
+3. Once in your workspace, from the root directory, run the command:
+
+    npm install
+    
+4. Next, cd into the client directory, and run the command:
+
+    bower install
+    
+5. Finally, upload the socrata-app.json config file (ask Operation Spark in our Slack room), and move this file to:
+
+    ~/.opspark/socrata-app.json
 
 ## Running the Server
 
