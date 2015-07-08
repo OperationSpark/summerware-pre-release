@@ -1,16 +1,24 @@
-Summerware Socrata Boiler Plate
+Summerware Pre-Release Boiler Plate
 ===
 
 ## Socrata Wrapper
 
-The template apps has some very basic routes orangized based on the available pre-prelease data:
+The template app has some very basic routes orangized by the available pre-prelease data:
 
     /emergency
     /non-emergency
 
-Given the pre-release data, we need to use Basic auth _and_ provide an app token to make http requests to Socrata.  We've wrapped this process in the lib at:
+More too follow shortly...
+
+Given that the pre-release data is private, we need to use Basic auth _and_ provide an app token to make http requests to Socrata.  We've wrapped this process in the lib at:
 
     socrata = require('./server/util/socrata'),
+
+**NOTE:** You will require a config file to be located at:
+
+    ~/.opspark/socrata/socrata-app.json
+    
+Please contact Operation Spark for this super secret information.
 
 Usage:
 
@@ -42,13 +50,13 @@ socrata.get(url, qs).then(function (data) {
 
 ## Running the server
 
-1) Open `server.js` and start the app by clicking on the "Run" button in the top menu.
+1) Open `app.js` and start the app by clicking on the "Run" button in the top menu.
 
 2) Alternatively you can launch the app from the Terminal:
 
-    $ node server.js
+    $ node app.js
 
-3) Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'.  We recommend popping this tab out into a separate Chrome browser.
+3) Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'.  We recommend popping this tab out from Cloud9 into a separate Chrome browser.
 
 ## Endpoints
 
