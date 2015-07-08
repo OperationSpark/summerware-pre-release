@@ -1,4 +1,4 @@
-Summerware Pre-Release Boiler Plate
+Summerware Pre-Release Boilerplate
 ===
 
 ## Socrata Wrapper
