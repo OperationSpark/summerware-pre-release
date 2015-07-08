@@ -8,7 +8,7 @@ The template app has some very basic routes orangized by the available pre-prele
     /emergency
     /non-emergency
 
-More too follow shortly...
+More resources to follow shortly...
 
 Given that the pre-release data is private, we need to use Basic auth _and_ provide an app token to make http requests to Socrata.  We've wrapped this process in the lib at:
 
