@@ -63,7 +63,7 @@ This is a client/server app, the server is written in express.js and currently h
 
     $ node app.js
 
-3) Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'.  We recommend popping this tab out from Cloud9 into a separate Chrome browser.
+3) Once the server is running, open the project in the shape of 'https://projectname-username.c9.io/'.  We recommend popping this tab out from Cloud9 into a separate Chrome browser so that you can make use of the Chrome debugger tools!
 
 4) Restart or Stop and Start the server on iterations.
 
