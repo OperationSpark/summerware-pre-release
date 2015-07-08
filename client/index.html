@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en" ng-app='pre-release'>
+  <head>
+    <title>Pre-release</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="bower_components/ng-json-explorer/dist/angular-json-explorer.css">
+    <link rel="stylesheet" href="/css/local.css">
+  </head>
+  <body>
+    <div class="container" ng-controller="EmergencyController">
+      <div class="navbar navbar-fixed-top navbar-inverse">
+        <div class="navbar-inner">
+          <div class="pull-left">
+            <a href="https://operationspark.org/summerware" class="brand">Summerware();</a>
+          </div>
+          <div class="pull-right">
+            <a href="https://operationspark.org" class="brand">Operation Spark</a>
+          </div>
+        </div>
+      </div>
+      <div class="page-header">
+        <h1>Pre-release Police Data</h1>
+      </div>
+      <div class="row">
+        <div class="row-fluid" id="data">
+            <div class="span2">
+              <h4>Parameters</h4>
+              <p ng-show="fields.length"><a href="#" tabindex="-1" ng-click="removeAll()">remove all</a></p>
+            </div>
+            <div class="span10">
+              <div id="parameters">
+                <fieldset id="parameters-fieldset" data-ng-repeat="field in fields">
+                  <p>
+                    <input class="inline input-large" placeholder="name" ng-model="field.key" type="text">
+                    <input class="inline input-xxlarge" placeholder="value" ng-model="field.value" type="text">
+                    <a class="icon-remove remove" href="#" data-index="0" tabindex="-1" ng-show="$last" ng-click="removeParam()"></a>
+                  </p>
+                </fieldset>
+                <p><button class="btn btn-small" id="add-parameter" ng-click="addParam()">Add another parameter</button></p>
+                <p><button class="btn btn-medium btn-primary" id="send" ng-click="send()">Send Request...</button></p>
+              </div>
+              <json-explorer data="records"></json-explorer>
+            </div>
+          </div>
+          
+      </div>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/angular.min.js"></script>
+    <script src="bower_components/ng-json-explorer/dist/angular-json-explorer.min.js"></script>
+    <script>
+      var app = angular.module( "pre-release", ['ngJsonExplorer']);
+      
+      app.controller(
+        "EmergencyController",
+        function($scope, emergencyService) {
+          
+          $scope.fields = [{key: '$limit', value: 10}, {key: 'TypeText', value: 'DISCHARGING FIREARMS'}];
+          $scope.records = [];
+          
+          $scope.removeAll = function () {
+            $scope.fields = [];
+          };
+          
+          $scope.addParam = function () {
+            $scope.fields.push({key: null, value: null});
+          };
+          
+          $scope.removeParam = function() {
+            $scope.fields.splice($scope.fields.length-1);
+          };
+          
+          $scope.send = function send() {
+            var params = {};
+            $scope.fields.forEach(function (param) {
+              params[param.key] = param.value;
+            });
+            $scope.get(params);
+          };
+          
+          $scope.get = function(params) {
+            emergencyService.get(params)
+              .then(
+                function (data) {
+                  $scope.records = data;
+                  console.log(data);
+                },
+                function( errorMessage ) {
+                    console.warn( errorMessage );
+                });
+          };
+        });
+      
+      app.service(
+        "emergencyService",
+        function( $http, $q ) {
+            
+        return({
+            get: get
+        });
+              
+        function get(params) {
+            var request = $http({
+                method: "get",
+                url: "emergency",
+                params: params
+            });
+            return(request.then(handleSuccess, handleError));
+        }
+            
+        function handleError(response) {
+            if (!angular.isObject(response.data) ||
+                !response.data.message) {
+                return($q.reject("An unknown error occurred!"));
+            }
+            // otherwise, use expected error message //
+            return($q.reject(response.data.message));
+        }
+        
+        function handleSuccess(response) {
+            return(response.data);
+        }
+      });
+    </script>
+  </body>
+</html>

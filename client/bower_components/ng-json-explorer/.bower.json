@@ -1,0 +1,28 @@
+{
+  "name": "ng-json-explorer",
+  "license": "MIT",
+  "main": [
+    "dist/angular-json-explorer.js",
+    "dist/angular-json-explorer.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angularjs": "~1.2.20"
+  },
+  "homepage": "https://github.com/Goldark/ng-json-explorer",
+  "_release": "755b309940",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "755b309940ebab21e278d98fd5c8f9c853f32b5f"
+  },
+  "_source": "git://github.com/Goldark/ng-json-explorer.git",
+  "_target": "*",
+  "_originalSource": "ng-json-explorer",
+  "_direct": true
+}

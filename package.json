@@ -1,0 +1,18 @@
+{
+  "name": "summerware-template",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": "",
+  "author": "jfraboni",
+  "dependencies": {
+    "async": "~0.2.8",
+    "bluebird": "^2.9.32",
+    "express": "~3.2.4",
+    "lodash": "^3.10.0",
+    "node-socrata": "0.0.50",
+    "request": "^2.58.0",
+    "request-promise": "^0.4.2",
+    "socket.io": "~0.9.14"
+  }
+}
