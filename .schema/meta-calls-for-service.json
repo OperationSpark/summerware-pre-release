@@ -1,0 +1,955 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "iexm-djig",
+      "name" : "Calls for Service",
+      "averageRating" : 0,
+      "createdAt" : 1435932658,
+      "description" : "NOPD Calls for Service 2011-Present, Including Time of Arrival.",
+      "displayType" : "table",
+      "downloadCount" : 0,
+      "indexUpdatedAt" : 1435937844,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 12066210,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1435935407,
+      "publicationGroup" : 3398188,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1435935203,
+      "rowsUpdatedBy" : "7kk9-bewq",
+      "tableId" : 3398188,
+      "totalTimesRated" : 0,
+      "viewCount" : 18,
+      "viewLastModified" : 1435935407,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 211249817,
+        "name" : "NOPD_Item",
+        "dataTypeName" : "text",
+        "fieldName" : "nopd_item",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29468311,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 2138448,
+          "smallest" : "A-00001-11",
+          "null" : 0,
+          "largest" : "L-46310-11",
+          "top" : [ {
+            "count" : 20,
+            "item" : "F-36172-15"
+          }, {
+            "count" : 19,
+            "item" : "F-36173-15"
+          }, {
+            "count" : 18,
+            "item" : "F-36174-15"
+          }, {
+            "count" : 17,
+            "item" : "F-36175-15"
+          }, {
+            "count" : 16,
+            "item" : "F-36176-15"
+          }, {
+            "count" : 15,
+            "item" : "F-36177-15"
+          }, {
+            "count" : 14,
+            "item" : "F-36178-15"
+          }, {
+            "count" : 13,
+            "item" : "F-36179-15"
+          }, {
+            "count" : 12,
+            "item" : "F-36180-15"
+          }, {
+            "count" : 11,
+            "item" : "F-36181-15"
+          }, {
+            "count" : 10,
+            "item" : "F-36182-15"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249818,
+        "name" : "Type_",
+        "dataTypeName" : "text",
+        "fieldName" : "type_",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29468312,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 2138448,
+          "smallest" : "100",
+          "null" : 0,
+          "largest" : "WALK",
+          "top" : [ {
+            "count" : 20,
+            "item" : "17M"
+          }, {
+            "count" : 19,
+            "item" : "17F"
+          }, {
+            "count" : 18,
+            "item" : "18"
+          }, {
+            "count" : 17,
+            "item" : "21"
+          }, {
+            "count" : 16,
+            "item" : "94"
+          }, {
+            "count" : 15,
+            "item" : "107"
+          }, {
+            "count" : 14,
+            "item" : "56"
+          }, {
+            "count" : 13,
+            "item" : "20"
+          }, {
+            "count" : 12,
+            "item" : "103"
+          }, {
+            "count" : 11,
+            "item" : "24"
+          }, {
+            "count" : 10,
+            "item" : "62A"
+          }, {
+            "count" : 9,
+            "item" : "103F"
+          }, {
+            "count" : 8,
+            "item" : "67A"
+          }, {
+            "count" : 7,
+            "item" : "35"
+          }, {
+            "count" : 6,
+            "item" : "100"
+          }, {
+            "count" : 5,
+            "item" : "911"
+          }, {
+            "count" : 4,
+            "item" : "21L"
+          }, {
+            "count" : 3,
+            "item" : "103D"
+          }, {
+            "count" : 2,
+            "item" : "35D"
+          }, {
+            "count" : 1,
+            "item" : "20I"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249819,
+        "name" : "TypeText",
+        "dataTypeName" : "text",
+        "fieldName" : "typetext",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29468313,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 2138448,
+          "smallest" : "ABANDONED BOAT",
+          "null" : 0,
+          "largest" : "WRECKLESS DRIVING",
+          "top" : [ {
+            "count" : 20,
+            "item" : "FUGITIVE ATTTACHMENT"
+          }, {
+            "count" : 19,
+            "item" : "TRAFFIC  INCIDENT"
+          }, {
+            "count" : 18,
+            "item" : "COMPLAINT OTHER"
+          }, {
+            "count" : 17,
+            "item" : "SUSPICIOUS PERSON"
+          }, {
+            "count" : 16,
+            "item" : "AUTO ACCIDENT"
+          }, {
+            "count" : 15,
+            "item" : "DISTURBANCE (OTHER)"
+          }, {
+            "count" : 14,
+            "item" : "BURGLAR ALARM"
+          }, {
+            "count" : 13,
+            "item" : "FIGHT"
+          }, {
+            "count" : 12,
+            "item" : "AUTO THEFT"
+          }, {
+            "count" : 11,
+            "item" : "HIT & RUN"
+          }, {
+            "count" : 10,
+            "item" : "LOST OR STOLEN"
+          }, {
+            "count" : 9,
+            "item" : "DOMESTIC DISTURBANCE"
+          }, {
+            "count" : 8,
+            "item" : "THEFT"
+          }, {
+            "count" : 7,
+            "item" : "MENTAL PATIENT"
+          }, {
+            "count" : 6,
+            "item" : "TRAFFIC INCIDENT"
+          }, {
+            "count" : 5,
+            "item" : "FUGITIVE ATTACHMENT"
+          }, {
+            "count" : 4,
+            "item" : "MUNICIPAL ATTACHMENT"
+          }, {
+            "count" : 3,
+            "item" : "MEDICAL"
+          }, {
+            "count" : 2,
+            "item" : "NOISE COMPLAINT"
+          }, {
+            "count" : 1,
+            "item" : "RETURN FOR ADDITIONAL INFO"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249820,
+        "name" : "MapX",
+        "dataTypeName" : "number",
+        "fieldName" : "mapx",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29468314,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 2138448,
+          "smallest" : "0",
+          "sum" : "8457213066201",
+          "null" : 0,
+          "average" : "3954836.903306043",
+          "largest" : "37369000",
+          "top" : [ {
+            "count" : 20,
+            "item" : "37369000"
+          }, {
+            "count" : 19,
+            "item" : "3685237"
+          }, {
+            "count" : 18,
+            "item" : "3692647"
+          }, {
+            "count" : 17,
+            "item" : "3681881"
+          }, {
+            "count" : 16,
+            "item" : "3698595"
+          }, {
+            "count" : 15,
+            "item" : "3675085"
+          }, {
+            "count" : 14,
+            "item" : "3673975"
+          }, {
+            "count" : 13,
+            "item" : "3703847"
+          }, {
+            "count" : 12,
+            "item" : "3687361"
+          }, {
+            "count" : 11,
+            "item" : "3672247"
+          }, {
+            "count" : 10,
+            "item" : "3706428"
+          }, {
+            "count" : 9,
+            "item" : "3726776"
+          }, {
+            "count" : 8,
+            "item" : "3719160"
+          }, {
+            "count" : 7,
+            "item" : "3705341"
+          }, {
+            "count" : 6,
+            "item" : "3662467"
+          }, {
+            "count" : 5,
+            "item" : "3702788"
+          }, {
+            "count" : 4,
+            "item" : "3674193"
+          }, {
+            "count" : 3,
+            "item" : "3674286"
+          }, {
+            "count" : 2,
+            "item" : "3677159"
+          }, {
+            "count" : 1,
+            "item" : "3667278"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249821,
+        "name" : "MapY",
+        "dataTypeName" : "number",
+        "fieldName" : "mapy",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29468315,
+        "width" : 148,
+        "cachedContents" : {
+          "non_null" : 2138448,
+          "smallest" : "0",
+          "sum" : "1193063310089",
+          "null" : 0,
+          "average" : "557910.8353764038",
+          "largest" : "3513814",
+          "top" : [ {
+            "count" : 20,
+            "item" : "3513814"
+          }, {
+            "count" : 19,
+            "item" : "538545"
+          }, {
+            "count" : 18,
+            "item" : "550215"
+          }, {
+            "count" : 17,
+            "item" : "531497"
+          }, {
+            "count" : 16,
+            "item" : "519112"
+          }, {
+            "count" : 15,
+            "item" : "525962"
+          }, {
+            "count" : 14,
+            "item" : "527164"
+          }, {
+            "count" : 13,
+            "item" : "510447"
+          }, {
+            "count" : 12,
+            "item" : "530817"
+          }, {
+            "count" : 11,
+            "item" : "530637"
+          }, {
+            "count" : 10,
+            "item" : "562191"
+          }, {
+            "count" : 9,
+            "item" : "557002"
+          }, {
+            "count" : 8,
+            "item" : "558586"
+          }, {
+            "count" : 7,
+            "item" : "557778"
+          }, {
+            "count" : 6,
+            "item" : "531511"
+          }, {
+            "count" : 5,
+            "item" : "555081"
+          }, {
+            "count" : 4,
+            "item" : "533638"
+          }, {
+            "count" : 3,
+            "item" : "524479"
+          }, {
+            "count" : 2,
+            "item" : "537514"
+          }, {
+            "count" : 1,
+            "item" : "534144"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249822,
+        "name" : "TimeCreate",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "timecreate",
+        "position" : 7,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 29468316,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 2137538,
+          "smallest" : "2011-01-01T00:00:02",
+          "null" : 910,
+          "largest" : "70148-01-01T00:00:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2015-06-29T11:56:37"
+          }, {
+            "count" : 19,
+            "item" : "2015-06-29T11:57:03"
+          }, {
+            "count" : 18,
+            "item" : "2015-06-29T11:59:25"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249823,
+        "name" : "TimeDispatch",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "timedispatch",
+        "position" : 8,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 29468317,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 1821508,
+          "smallest" : "2011-01-01T00:00:30",
+          "null" : 316940,
+          "largest" : "2015-06-30T16:50:27",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2015-06-29T12:17:42"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249824,
+        "name" : "TimeArrival",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "timearrival",
+        "position" : 9,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 29468318,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 1723499,
+          "smallest" : "2011-01-01T00:00:30",
+          "null" : 414949,
+          "largest" : "2015-06-30T15:33:29",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2015-06-29T11:03:24"
+          }, {
+            "count" : 19,
+            "item" : "2015-06-29T11:38:43"
+          }, {
+            "count" : 18,
+            "item" : "2015-06-29T11:39:56"
+          }, {
+            "count" : 17,
+            "item" : "2015-06-29T11:39:38"
+          }, {
+            "count" : 16,
+            "item" : "2015-06-29T11:40:22"
+          }, {
+            "count" : 15,
+            "item" : "2015-06-29T11:57:08"
+          }, {
+            "count" : 14,
+            "item" : "2015-06-29T11:42:01"
+          }, {
+            "count" : 13,
+            "item" : "2015-06-29T15:53:38"
+          }, {
+            "count" : 12,
+            "item" : "2015-06-29T11:42:51"
+          }, {
+            "count" : 11,
+            "item" : "2015-06-29T12:02:33"
+          }, {
+            "count" : 10,
+            "item" : "2015-06-29T12:00:27"
+          }, {
+            "count" : 9,
+            "item" : "2015-06-29T11:45:15"
+          }, {
+            "count" : 8,
+            "item" : "2015-06-29T11:46:15"
+          }, {
+            "count" : 7,
+            "item" : "2015-06-30T02:35:24"
+          }, {
+            "count" : 6,
+            "item" : "2015-06-29T11:47:23"
+          }, {
+            "count" : 5,
+            "item" : "2015-06-29T11:49:07"
+          }, {
+            "count" : 4,
+            "item" : "2015-06-29T11:49:15"
+          }, {
+            "count" : 3,
+            "item" : "2015-06-29T12:55:26"
+          }, {
+            "count" : 2,
+            "item" : "2015-06-29T11:53:02"
+          }, {
+            "count" : 1,
+            "item" : "2015-06-29T11:51:50"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249825,
+        "name" : "TimeClosed",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "timeclosed",
+        "position" : 10,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 29468319,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 2066161,
+          "smallest" : "2011-01-01T00:00:03",
+          "null" : 72287,
+          "largest" : "2015-06-30T17:38:03",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2015-06-29T11:57:16"
+          }, {
+            "count" : 19,
+            "item" : "2015-06-29T12:15:02"
+          }, {
+            "count" : 18,
+            "item" : "2015-06-29T12:12:37"
+          }, {
+            "count" : 17,
+            "item" : "2015-06-29T12:57:22"
+          }, {
+            "count" : 16,
+            "item" : "2015-06-29T12:38:49"
+          }, {
+            "count" : 15,
+            "item" : "2015-06-29T13:28:46"
+          }, {
+            "count" : 14,
+            "item" : "2015-06-29T14:07:35"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249826,
+        "name" : "Disposition",
+        "dataTypeName" : "text",
+        "fieldName" : "disposition",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29468320,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 2138448,
+          "smallest" : "1",
+          "null" : 0,
+          "largest" : "VOI",
+          "top" : [ {
+            "count" : 20,
+            "item" : "NAT"
+          }, {
+            "count" : 19,
+            "item" : "UNF"
+          }, {
+            "count" : 18,
+            "item" : "GOA"
+          }, {
+            "count" : 17,
+            "item" : "RTF"
+          }, {
+            "count" : 16,
+            "item" : "DUP"
+          }, {
+            "count" : 15,
+            "item" : "VOI"
+          }, {
+            "count" : 14,
+            "item" : "NULL"
+          }, {
+            "count" : 13,
+            "item" : "740B"
+          }, {
+            "count" : 12,
+            "item" : "720B"
+          }, {
+            "count" : 11,
+            "item" : "281B"
+          }, {
+            "count" : 10,
+            "item" : "615C"
+          }, {
+            "count" : 9,
+            "item" : "215C"
+          }, {
+            "count" : 8,
+            "item" : "332C"
+          }, {
+            "count" : 7,
+            "item" : "419A"
+          }, {
+            "count" : 6,
+            "item" : "211A"
+          }, {
+            "count" : 5,
+            "item" : "283A"
+          }, {
+            "count" : 4,
+            "item" : "371A"
+          }, {
+            "count" : 3,
+            "item" : "432A"
+          }, {
+            "count" : 2,
+            "item" : "734A"
+          }, {
+            "count" : 1,
+            "item" : "615A"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249827,
+        "name" : "DispositionText",
+        "dataTypeName" : "text",
+        "fieldName" : "dispositiontext",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29468321,
+        "width" : 280,
+        "cachedContents" : {
+          "non_null" : 2138262,
+          "smallest" : "2015-06-10 06:20:38.657",
+          "null" : 186,
+          "largest" : "VOID",
+          "top" : [ {
+            "count" : 20,
+            "item" : "NECESSARY ACTION TAKEN"
+          }, {
+            "count" : 19,
+            "item" : "UNFOUNDED"
+          }, {
+            "count" : 18,
+            "item" : "GONE ON ARRIVAL"
+          }, {
+            "count" : 17,
+            "item" : "REPORT TO FOLLOW"
+          }, {
+            "count" : 16,
+            "item" : "MUNICIPAL NECESSARY ACTION TAK"
+          }, {
+            "count" : 15,
+            "item" : "DUPLICATE"
+          }, {
+            "count" : 14,
+            "item" : "NAT"
+          }, {
+            "count" : 13,
+            "item" : "VOI"
+          }, {
+            "count" : 12,
+            "item" : "VOID"
+          }, {
+            "count" : 11,
+            "item" : "UNF"
+          }, {
+            "count" : 10,
+            "item" : "GOA"
+          }, {
+            "count" : 9,
+            "item" : "SUPPLEMENTAL"
+          }, {
+            "count" : 8,
+            "item" : "NEC. ACTION TAKEN 2 CITATIONS"
+          }, {
+            "count" : 7,
+            "item" : "NEC. ACTION TAKEN 1 CITATION"
+          }, {
+            "count" : 6,
+            "item" : "DUP"
+          }, {
+            "count" : 5,
+            "item" : "TRUANCY NECESSARY ACTION TAKEN"
+          }, {
+            "count" : 4,
+            "item" : "RTF"
+          }, {
+            "count" : 3,
+            "item" : "NAT - NO CITATIONS ISSUED"
+          }, {
+            "count" : 2,
+            "item" : "REPORT TO FOLLOW CURFEW"
+          }, {
+            "count" : 1,
+            "item" : "NATM"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249828,
+        "name" : "BLOCK_ADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "block_address",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29468322,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 2138445,
+          "smallest" : "????",
+          "null" : 3,
+          "largest" : "ZONE L",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Mandeville St & N Derbigny St"
+          }, {
+            "count" : 19,
+            "item" : "Washington Ave & Freret St"
+          }, {
+            "count" : 18,
+            "item" : "047XX Canal St"
+          }, {
+            "count" : 17,
+            "item" : "General De Gaulle Dr & Shirley Dr"
+          }, {
+            "count" : 16,
+            "item" : "Tulane Ave & S Carrollton Ave (1K02)"
+          }, {
+            "count" : 15,
+            "item" : "077XX Walmsley Ave"
+          }, {
+            "count" : 14,
+            "item" : "Zachary Taylor Dr & Diagonal Dr"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 211249829,
+        "name" : "Zip",
+        "dataTypeName" : "number",
+        "fieldName" : "zip",
+        "position" : 14,
+        "rdfProperties" : "",
+        "renderTypeName" : "number",
+        "tableColumnId" : 29468323,
+        "width" : 136,
+        "cachedContents" : {
+          "non_null" : 2104689,
+          "smallest" : "0",
+          "sum" : "146637775036",
+          "null" : 33759,
+          "average" : "69671.94442314280",
+          "largest" : "70148",
+          "top" : [ {
+            "count" : 20,
+            "item" : "70119"
+          }, {
+            "count" : 19,
+            "item" : "70116"
+          }, {
+            "count" : 18,
+            "item" : "70125"
+          }, {
+            "count" : 17,
+            "item" : "70117"
+          }, {
+            "count" : 16,
+            "item" : "70127"
+          }, {
+            "count" : 15,
+            "item" : "70114"
+          }, {
+            "count" : 14,
+            "item" : "70131"
+          }, {
+            "count" : 13,
+            "item" : "70126"
+          }, {
+            "count" : 12,
+            "item" : "70112"
+          }, {
+            "count" : 11,
+            "item" : "70113"
+          }, {
+            "count" : 10,
+            "item" : "70130"
+          }, {
+            "count" : 9,
+            "item" : "70128"
+          }, {
+            "count" : 8,
+            "item" : "70122"
+          }, {
+            "count" : 7,
+            "item" : "70118"
+          }, {
+            "count" : 6,
+            "item" : "70115"
+          }, {
+            "count" : 5,
+            "item" : "0"
+          }, {
+            "count" : 4,
+            "item" : "70129"
+          }, {
+            "count" : 3,
+            "item" : "70124"
+          }, {
+            "count" : 2,
+            "item" : "70148"
+          } ]
+        },
+        "format" : {
+          "rdf" : "",
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "userId" : "8x8r-xmxi"
+      }, {
+        "inherited" : false,
+        "type" : "viewer",
+        "userId" : "drg7-dhpf"
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Source Information" : {
+            "Source Department" : "NOPD",
+            "Program" : ""
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "7kk9-bewq",
+        "displayName" : "J.B. Raasch",
+        "roleName" : "administrator",
+        "screenName" : "J.B. Raasch",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "7kk9-bewq",
+        "displayName" : "J.B. Raasch",
+        "roleName" : "administrator",
+        "screenName" : "J.B. Raasch",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "flags" : [ "default", "shared" ]
+    }
+  }
+}

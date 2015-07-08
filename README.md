@@ -59,7 +59,7 @@ socrata.get(url, qs).then(function (data) {
 4. Next, cd into the client directory, and run the command:
 
         bower install
-    
+
 5. Finally, upload the socrata-app.json config file (ask Operation Spark in our Slack room), and move this file to:
 
         ~/.opspark/socrata-app.json

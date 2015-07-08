@@ -1,0 +1,797 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "3iz8-nghx",
+      "name" : "311_explorer_dataset",
+      "averageRating" : 0,
+      "createdAt" : 1413315860,
+      "displayType" : "table",
+      "downloadCount" : 14,
+      "indexUpdatedAt" : 1436277607,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 9646233,
+      "publicationAppendEnabled" : true,
+      "publicationDate" : 1426625928,
+      "publicationGroup" : 1796360,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1436254368,
+      "rowsUpdatedBy" : "guap-8ddq",
+      "state" : "normal",
+      "tableId" : 1984841,
+      "totalTimesRated" : 0,
+      "viewCount" : 175,
+      "viewLastModified" : 1436333471,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 180118909,
+        "name" : "ticket_id",
+        "dataTypeName" : "text",
+        "fieldName" : "ticket_id",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22400366,
+        "width" : 130,
+        "cachedContents" : {
+          "non_null" : 127391,
+          "smallest" : "101000000348",
+          "null" : 0,
+          "largest" : "101000423570",
+          "top" : [ {
+            "count" : 20,
+            "item" : "101000423052"
+          }, {
+            "count" : 19,
+            "item" : "101000423089"
+          }, {
+            "count" : 18,
+            "item" : "101000423553"
+          }, {
+            "count" : 17,
+            "item" : "101000422518"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 180118910,
+        "name" : "secondary_issue_type",
+        "dataTypeName" : "text",
+        "fieldName" : "secondary_issue_type",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22400367,
+        "width" : 207,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 127391
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 180118911,
+        "name" : "issue_type",
+        "dataTypeName" : "text",
+        "fieldName" : "issue_type",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22400368,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 127391,
+          "smallest" : "Abandoned Vehicle Reporting/Removal",
+          "null" : 0,
+          "largest" : "Tree Service Emergency",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Street Flooding/Drainage"
+          }, {
+            "count" : 19,
+            "item" : "Code Enforcement General Request"
+          }, {
+            "count" : 18,
+            "item" : "Pothole/Roadway Surface Repair"
+          }, {
+            "count" : 17,
+            "item" : "Street Light"
+          }, {
+            "count" : 16,
+            "item" : "Residential Recycling Programs"
+          }, {
+            "count" : 15,
+            "item" : "Subsidence"
+          }, {
+            "count" : 14,
+            "item" : "Lost and Found"
+          }, {
+            "count" : 13,
+            "item" : "Traffic Sign"
+          }, {
+            "count" : 12,
+            "item" : "Road Surface Marking"
+          }, {
+            "count" : 11,
+            "item" : "Mosquito Control"
+          }, {
+            "count" : 10,
+            "item" : "Tree Maintenance"
+          }, {
+            "count" : 9,
+            "item" : "Trash/Garbage Pickup"
+          }, {
+            "count" : 8,
+            "item" : "Tree Service"
+          }, {
+            "count" : 7,
+            "item" : "Abandoned Vehicle Reporting/Removal"
+          }, {
+            "count" : 6,
+            "item" : "Illegal Dumping Reporting"
+          }, {
+            "count" : 5,
+            "item" : "Sidewalk Repair"
+          }, {
+            "count" : 4,
+            "item" : "Traffic Signal"
+          }, {
+            "count" : 3,
+            "item" : "Large Item Trash/Garbage Pickup"
+          }, {
+            "count" : 2,
+            "item" : "Rodent Complaint"
+          }, {
+            "count" : 1,
+            "item" : "Manhole Cover Maintenance"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 195215442,
+        "name" : "ticket_created_date_time",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "ticket_created_date_time",
+        "position" : 4,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 22400369,
+        "width" : 228,
+        "cachedContents" : {
+          "non_null" : 127391,
+          "smallest" : "2012-03-12T09:46:20",
+          "null" : 0,
+          "largest" : "2015-07-06T16:58:14",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2015-07-06T10:55:00"
+          }, {
+            "count" : 19,
+            "item" : "2015-07-06T11:14:05"
+          }, {
+            "count" : 18,
+            "item" : "2015-07-06T16:32:15"
+          }, {
+            "count" : 17,
+            "item" : "2015-07-02T11:35:00"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 195216856,
+        "name" : "ticket_closed_date_time",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "ticket_closed_date_time",
+        "position" : 5,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 22400370,
+        "width" : 230,
+        "cachedContents" : {
+          "non_null" : 109670,
+          "smallest" : "2012-03-12T11:09:26",
+          "null" : 17721,
+          "largest" : "2015-07-06T17:25:50",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2012-10-05T14:47:44"
+          }, {
+            "count" : 19,
+            "item" : "2015-07-06T16:34:41"
+          }, {
+            "count" : 18,
+            "item" : "2015-07-06T15:22:40"
+          }, {
+            "count" : 17,
+            "item" : "2015-07-06T11:36:09"
+          }, {
+            "count" : 16,
+            "item" : "2015-07-06T15:53:41"
+          }, {
+            "count" : 15,
+            "item" : "2015-07-06T12:48:46"
+          }, {
+            "count" : 14,
+            "item" : "2015-07-06T12:12:54"
+          }, {
+            "count" : 13,
+            "item" : "2015-07-06T09:58:57"
+          }, {
+            "count" : 12,
+            "item" : "2015-07-06T12:07:55"
+          }, {
+            "count" : 11,
+            "item" : "2015-07-06T12:12:42"
+          }, {
+            "count" : 10,
+            "item" : "2015-07-06T10:05:05"
+          }, {
+            "count" : 9,
+            "item" : "2015-07-06T12:12:02"
+          }, {
+            "count" : 8,
+            "item" : "2015-07-06T11:37:50"
+          }, {
+            "count" : 7,
+            "item" : "2015-07-06T12:08:42"
+          }, {
+            "count" : 6,
+            "item" : "2015-07-06T10:06:26"
+          }, {
+            "count" : 5,
+            "item" : "2015-07-06T10:57:10"
+          }, {
+            "count" : 4,
+            "item" : "2015-07-06T15:03:45"
+          }, {
+            "count" : 3,
+            "item" : "2015-07-06T11:59:05"
+          }, {
+            "count" : 2,
+            "item" : "2015-07-06T14:04:34"
+          }, {
+            "count" : 1,
+            "item" : "2015-07-06T10:41:17"
+          } ]
+        },
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 180118914,
+        "name" : "ticket_status",
+        "dataTypeName" : "text",
+        "fieldName" : "ticket_status",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22400371,
+        "width" : 159,
+        "cachedContents" : {
+          "non_null" : 127391,
+          "smallest" : "Closed",
+          "null" : 0,
+          "largest" : "Open",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Open"
+          }, {
+            "count" : 19,
+            "item" : "Closed"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 180118915,
+        "name" : "issue_description",
+        "dataTypeName" : "text",
+        "fieldName" : "issue_description",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22400372,
+        "width" : 180,
+        "cachedContents" : {
+          "non_null" : 121842,
+          "smallest" : "/Description of item: Tree branches and about 8 bags of vegitation left from the recent storm.9/12/2012 - Caller is checking the status of the debris pick up at this location.",
+          "null" : 5549,
+          "largest" : "Wrecked  vehicle - IN STREET",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Nature of request: New Recycling Cart"
+          }, {
+            "count" : 19,
+            "item" : "Issue: Outage Or Cycling | Pole number: 0"
+          }, {
+            "count" : 18,
+            "item" : "| High Weeds: Yes"
+          }, {
+            "count" : 17,
+            "item" : "Street area affected: Travel Lane / Roadway | Running water: No | Standing Water: No | Rocks: No | Utility company working at the location: No | Other details: Caller stated there are potholes up and down this street the cross street is Cherry"
+          }, {
+            "count" : 16,
+            "item" : "Color: Purple | Make: Buick | License plate (state): MI - Michigan | License plate: BXV7178 | Cross Street: BANKS | Other details: CAR HAS BEEN PARKED ABOUT A MONTH, MAROON IN COLOR. ON THE BANNKS STREET SIDE OF THIS ADDRESS, NEAR THE DRIVEWAY OF THIS ADDRESS"
+          }, {
+            "count" : 15,
+            "item" : "Issue: Outage Or Cycling | Pole number: HH51 | Other details: light is  totally out"
+          }, {
+            "count" : 14,
+            "item" : "| Unoccupied: Yes | Trash/Debris: Yes | High Weeds: Yes"
+          }, {
+            "count" : 13,
+            "item" : "Location Description: Grass is high near the citrus canal at Poitevent Avenue and Morrison Road | High Grass: Yes"
+          }, {
+            "count" : 12,
+            "item" : "Type of Property: Multi-Plex | Property Is: Residential | Cross Street: Ideal Pl. | Does the caller live at property: No | Rent or Own Property: Own | Is There A Pest Control Contract: Yes | Does lease state who is responsible: Yes | Do you currently have a pest control contact: Yes | Name of the Pest Control Company: Excel Pest Control | Do we have your permission to inspect your yard: Yes | Should burrows be treated: No | Do you have a dog in the yard: No | Do you have a dog in the yard: No | Are you currently applying rodenticides inside the porperty or in the yard: Yes | Pest-proofing: Yes | Other details: Problem coming from an overpass across the street from the house that people dump trash at. Caller states that they have been putting glue strips down and poison. Thank you."
+          }, {
+            "count" : 11,
+            "item" : "| Unoccupied: Yes | Commercial: Yes | Trash/Debris: Yes | High Weeds: Yes"
+          }, {
+            "count" : 10,
+            "item" : "Request for: Damaged Sign | Type of sign: Stop | Other details: Caller has stated that the pole and sign is at the interesection."
+          }, {
+            "count" : 9,
+            "item" : "Color: Pink | Make: Trailer | Model: food truck  | License plate (state): N/A | License plate: n/a | Cross Street: st ann / n dupre | NOPD QoL officer: No | Other details: flat tires"
+          }, {
+            "count" : 8,
+            "item" : "| Trash/Debris: Yes | High Weeds: Yes | Other conditions: Care and Trailers all on the lot."
+          }, {
+            "count" : 7,
+            "item" : "Issue: Missed Collection | Time trash/recycling put out: 06:00 | Other details: Caller stated the cart has not been picked up. He stated there has not been any change in what he puts in the cart."
+          }, {
+            "count" : 6,
+            "item" : "Tires: No | Ch 66: No | Details of items dumped: Caller has stated that the items are filling, gravel, mud, and clam shells. | Who dumped the refuse: N/A | Other details: Caller has stated that the items are located on Ransom St. between Virgilian St. and Majestic Oaks Dr.  Caller has stated that the street has been made impassable."
+          }, {
+            "count" : 5,
+            "item" : "| High Weeds: Yes | Other conditions: Caller sttated the location is really 735 Flood St  which is between 5500 Dauphine and 727 Flood (only used this address because the actual address would *not* come up in the system which is 735 Flood ST. The actual address is 735 Flood St. (overgrown lot)"
+          }, {
+            "count" : 4,
+            "item" : "Issue: Outage Or Cycling | Pole number: 0 | Other details: Light is out."
+          }, {
+            "count" : 3,
+            "item" : "Issue: Outage Or Cycling | Pole number: MW83 | Other details: Caller states that the street light is out and caller also states that the light fixture is hanging as well."
+          }, {
+            "count" : 2,
+            "item" : "| Type of Tree: OAK | Blocking Driveway: Yes | Other Details: This is Boyd Funeral HomeLarge treee branch is blocking the driveway at this location on the Congress Street side of the Funeral Home which is at Chef Menteur and Congress."
+          }, {
+            "count" : 1,
+            "item" : "Issue: Outage Or Cycling | Pole number: PG62 | Other details: light is out at this location."
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 180118916,
+        "name" : "street_address",
+        "dataTypeName" : "text",
+        "fieldName" : "street_address",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22400373,
+        "width" : 165,
+        "cachedContents" : {
+          "non_null" : 127391,
+          "smallest" : "10000 GENTILLY RD",
+          "null" : 0,
+          "largest" : "ZION ST & KENT DR",
+          "top" : [ {
+            "count" : 20,
+            "item" : "9 POINT COUPEE PL"
+          }, {
+            "count" : 19,
+            "item" : "1520 N DERBIGNY ST"
+          }, {
+            "count" : 18,
+            "item" : "S MURAT ST & DHEMECOURT ST"
+          }, {
+            "count" : 17,
+            "item" : "2351 MAGAZINE ST"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 180118917,
+        "name" : "neighborhood_district",
+        "dataTypeName" : "text",
+        "fieldName" : "neighborhood_district",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22400374,
+        "width" : 202,
+        "cachedContents" : {
+          "non_null" : 127349,
+          "smallest" : "ALGIERS POINT",
+          "null" : 42,
+          "largest" : "WHITNEY",
+          "top" : [ {
+            "count" : 20,
+            "item" : "LEONIDAS"
+          }, {
+            "count" : 19,
+            "item" : "MID-CITY"
+          }, {
+            "count" : 18,
+            "item" : "LAKEVIEW"
+          }, {
+            "count" : 17,
+            "item" : "LITTLE WOODS"
+          }, {
+            "count" : 16,
+            "item" : "LOWER NINTH WARD"
+          }, {
+            "count" : 15,
+            "item" : "ST. ROCH"
+          }, {
+            "count" : 14,
+            "item" : "ST. CLAUDE"
+          }, {
+            "count" : 13,
+            "item" : "AUDUBON"
+          }, {
+            "count" : 12,
+            "item" : "CENTRAL CITY"
+          }, {
+            "count" : 11,
+            "item" : "SEVENTH WARD"
+          }, {
+            "count" : 10,
+            "item" : "CENTRAL BUSINESS DISTRICT"
+          }, {
+            "count" : 9,
+            "item" : "OLD AURORA"
+          }, {
+            "count" : 8,
+            "item" : "GENTILLY TERRACE"
+          }, {
+            "count" : 7,
+            "item" : "FILLMORE"
+          }, {
+            "count" : 6,
+            "item" : "MARLYVILLE - FONTAINBLEAU"
+          }, {
+            "count" : 5,
+            "item" : "BROADMOOR"
+          }, {
+            "count" : 4,
+            "item" : "MILAN"
+          }, {
+            "count" : 3,
+            "item" : "HOLY CROSS"
+          }, {
+            "count" : 2,
+            "item" : "ST.  ANTHONY"
+          }, {
+            "count" : 1,
+            "item" : "EAST CARROLLTON"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 180118918,
+        "name" : "city",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22400375,
+        "width" : 114,
+        "cachedContents" : {
+          "non_null" : 127391,
+          "smallest" : "NEW ORLEANS",
+          "null" : 0,
+          "largest" : "NEW ORLEANS",
+          "top" : [ {
+            "count" : 20,
+            "item" : "NEW ORLEANS"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 180118919,
+        "name" : "state",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 11,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22400376,
+        "width" : 106,
+        "cachedContents" : {
+          "non_null" : 127391,
+          "smallest" : "LA",
+          "null" : 0,
+          "largest" : "LA",
+          "top" : [ {
+            "count" : 20,
+            "item" : "LA"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 180118920,
+        "name" : "zip_code",
+        "dataTypeName" : "number",
+        "fieldName" : "zip_code",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 22400377,
+        "width" : 140,
+        "cachedContents" : {
+          "non_null" : 127378,
+          "smallest" : "70001",
+          "sum" : "8931866512",
+          "null" : 13,
+          "average" : "70120.95112185778",
+          "largest" : "70163",
+          "top" : [ {
+            "count" : 20,
+            "item" : "70118"
+          }, {
+            "count" : 19,
+            "item" : "70127"
+          }, {
+            "count" : 18,
+            "item" : "70119"
+          }, {
+            "count" : 17,
+            "item" : "70131"
+          }, {
+            "count" : 16,
+            "item" : "70114"
+          }, {
+            "count" : 15,
+            "item" : "70125"
+          }, {
+            "count" : 14,
+            "item" : "70124"
+          }, {
+            "count" : 13,
+            "item" : "70122"
+          }, {
+            "count" : 12,
+            "item" : "70116"
+          }, {
+            "count" : 11,
+            "item" : "70126"
+          }, {
+            "count" : 10,
+            "item" : "70115"
+          }, {
+            "count" : 9,
+            "item" : "70130"
+          }, {
+            "count" : 8,
+            "item" : "70117"
+          }, {
+            "count" : 7,
+            "item" : "70129"
+          }, {
+            "count" : 6,
+            "item" : "70113"
+          }, {
+            "count" : 5,
+            "item" : "70112"
+          }, {
+            "count" : 4,
+            "item" : "70128"
+          }, {
+            "count" : 3,
+            "item" : "70163"
+          }, {
+            "count" : 2,
+            "item" : "70005"
+          }, {
+            "count" : 1,
+            "item" : "70139"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "noCommas" : "true",
+          "align" : "right"
+        }
+      }, {
+        "id" : 180118921,
+        "name" : "image",
+        "dataTypeName" : "text",
+        "fieldName" : "image",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 22400378,
+        "width" : 126,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 127391
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 180118922,
+        "name" : "location",
+        "dataTypeName" : "location",
+        "fieldName" : "location",
+        "position" : 14,
+        "renderTypeName" : "location",
+        "tableColumnId" : 22400379,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 127391,
+          "smallest" : {
+            "longitude" : "-90.131063171276",
+            "latitude" : "29.9494218379104",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : "-90.131063171276",
+            "latitude" : "29.9494218379104",
+            "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-89.9278945393438",
+              "latitude" : "30.0447232328895",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-90.0674994419115",
+              "latitude" : "29.9720089181197",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-90.1088698695921",
+              "latitude" : "29.9732114474377",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-90.0788949458216",
+              "latitude" : "29.9283861516985",
+              "human_address" : "{\"address\":\"\",\"city\":\"\",\"state\":\"\",\"zip\":\"\"}"
+            }
+          } ]
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      }, {
+        "id" : 180118923,
+        "name" : "geom",
+        "dataTypeName" : "location",
+        "fieldName" : "geom",
+        "position" : 15,
+        "renderTypeName" : "location",
+        "tableColumnId" : 22400380,
+        "width" : 117,
+        "cachedContents" : {
+          "non_null" : 0,
+          "null" : 127391
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "userId" : "ii98-542e"
+      }, {
+        "inherited" : false,
+        "type" : "viewer",
+        "userId" : "8x8r-xmxi"
+      }, {
+        "inherited" : false,
+        "type" : "viewer",
+        "userId" : "drg7-dhpf"
+      } ],
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "metadata_table", "table", "fatrow", "page" ],
+        "rdfSubject" : "0"
+      },
+      "owner" : {
+        "id" : "guap-8ddq",
+        "displayName" : "City of New Orleans GIS Department",
+        "privilegesDisabled" : false,
+        "roleName" : "administrator",
+        "screenName" : "City of New Orleans GIS Department",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "guap-8ddq",
+        "displayName" : "City of New Orleans GIS Department",
+        "privilegesDisabled" : false,
+        "roleName" : "administrator",
+        "screenName" : "City of New Orleans GIS Department",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "flags" : [ "default", "shared" ]
+    }
+  }
+}
