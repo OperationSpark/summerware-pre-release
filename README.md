@@ -54,15 +54,15 @@ socrata.get(url, qs).then(function (data) {
 2. From your forked GitHub repo, using the SSH clone url option, clone into a new workspace on Cloud9 (c9.io).
 3. Once in your workspace, from the root directory, run the command:
 
-    npm install
-    
+        npm install
+
 4. Next, cd into the client directory, and run the command:
 
-    bower install
+        bower install
     
 5. Finally, upload the socrata-app.json config file (ask Operation Spark in our Slack room), and move this file to:
 
-    ~/.opspark/socrata-app.json
+        ~/.opspark/socrata-app.json
 
 ## Running the Server
 
