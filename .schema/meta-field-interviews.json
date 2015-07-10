@@ -1,0 +1,471 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "kitu-f4uy",
+      "name" : "Field Interviews",
+      "averageRating" : 0,
+      "createdAt" : 1436544069,
+      "description" : "NOPD Field Interviews - A subset of data collected when individuals are interviewed by NOPD Officers (including individuals stopped for questioning and complainants).",
+      "displayType" : "table",
+      "downloadCount" : 0,
+      "indexUpdatedAt" : 1436555178,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 12205240,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1436546037,
+      "publicationGroup" : 3508859,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1436545734,
+      "rowsUpdatedBy" : "7kk9-bewq",
+      "tableId" : 3509082,
+      "totalTimesRated" : 0,
+      "viewCount" : 5,
+      "viewLastModified" : 1436546037,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 212347611,
+        "name" : "FieldInterviewID",
+        "dataTypeName" : "number",
+        "fieldName" : "fieldinterviewid",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29659652,
+        "width" : 292,
+        "format" : {
+        }
+      }, {
+        "id" : 212347612,
+        "name" : "NOPD_Item",
+        "dataTypeName" : "text",
+        "fieldName" : "nopd_item",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659653,
+        "width" : 220,
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 212347613,
+        "name" : "EventDate",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "eventdate",
+        "position" : 4,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 29659654,
+        "width" : 208,
+        "format" : {
+        }
+      }, {
+        "id" : 212347614,
+        "name" : "District",
+        "dataTypeName" : "number",
+        "fieldName" : "district",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29659656,
+        "width" : 196,
+        "format" : {
+        }
+      }, {
+        "id" : 212347615,
+        "name" : "Zone",
+        "dataTypeName" : "text",
+        "fieldName" : "zone",
+        "position" : 7,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659657,
+        "width" : 148,
+        "format" : {
+        }
+      }, {
+        "id" : 212347616,
+        "name" : "OfficerAssignment",
+        "dataTypeName" : "text",
+        "fieldName" : "officerassignment",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659658,
+        "width" : 304,
+        "format" : {
+        }
+      }, {
+        "id" : 212347617,
+        "name" : "StopDescription",
+        "dataTypeName" : "text",
+        "fieldName" : "stopdescription",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659659,
+        "width" : 280,
+        "format" : {
+        }
+      }, {
+        "id" : 212347618,
+        "name" : "ActionsTaken",
+        "dataTypeName" : "text",
+        "fieldName" : "actionstaken",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659660,
+        "width" : 244,
+        "format" : {
+        }
+      }, {
+        "id" : 212347619,
+        "name" : "VehicleYear",
+        "dataTypeName" : "number",
+        "fieldName" : "vehicleyear",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29659661,
+        "width" : 232,
+        "format" : {
+        }
+      }, {
+        "id" : 212347620,
+        "name" : "VehicleMake",
+        "dataTypeName" : "text",
+        "fieldName" : "vehiclemake",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659662,
+        "width" : 232,
+        "format" : {
+        }
+      }, {
+        "id" : 212347621,
+        "name" : "VehicleModel",
+        "dataTypeName" : "text",
+        "fieldName" : "vehiclemodel",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659663,
+        "width" : 244,
+        "format" : {
+        }
+      }, {
+        "id" : 212347622,
+        "name" : "VehicleStyle",
+        "dataTypeName" : "text",
+        "fieldName" : "vehiclestyle",
+        "position" : 14,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659664,
+        "width" : 244,
+        "format" : {
+        }
+      }, {
+        "id" : 212347623,
+        "name" : "VehicleColor",
+        "dataTypeName" : "text",
+        "fieldName" : "vehiclecolor",
+        "position" : 15,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659665,
+        "width" : 244,
+        "format" : {
+        }
+      }, {
+        "id" : 212347624,
+        "name" : "VehicleComments",
+        "dataTypeName" : "text",
+        "fieldName" : "vehiclecomments",
+        "position" : 16,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659666,
+        "width" : 280,
+        "format" : {
+        }
+      }, {
+        "id" : 212347625,
+        "name" : "SubjectID",
+        "dataTypeName" : "number",
+        "fieldName" : "subjectid",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29659667,
+        "width" : 208,
+        "format" : {
+        }
+      }, {
+        "id" : 212347626,
+        "name" : "SubjectRace",
+        "dataTypeName" : "text",
+        "fieldName" : "subjectrace",
+        "position" : 18,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659668,
+        "width" : 232,
+        "format" : {
+        }
+      }, {
+        "id" : 212347627,
+        "name" : "SubjectGender",
+        "dataTypeName" : "text",
+        "fieldName" : "subjectgender",
+        "position" : 19,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659669,
+        "width" : 256,
+        "format" : {
+        }
+      }, {
+        "id" : 212347628,
+        "name" : "SubjectDOB",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "subjectdob",
+        "position" : 20,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 29659670,
+        "width" : 220,
+        "format" : {
+        }
+      }, {
+        "id" : 212347629,
+        "name" : "SubjectHasPhotoID",
+        "dataTypeName" : "text",
+        "fieldName" : "subjecthasphotoid",
+        "position" : 21,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659671,
+        "width" : 304,
+        "format" : {
+        }
+      }, {
+        "id" : 212347630,
+        "name" : "SubjectHeight",
+        "dataTypeName" : "number",
+        "fieldName" : "subjectheight",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29659672,
+        "width" : 256,
+        "format" : {
+        }
+      }, {
+        "id" : 212347631,
+        "name" : "SubjectWeight",
+        "dataTypeName" : "number",
+        "fieldName" : "subjectweight",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29659673,
+        "width" : 256,
+        "format" : {
+        }
+      }, {
+        "id" : 212347632,
+        "name" : "SubjectEyeColor",
+        "dataTypeName" : "text",
+        "fieldName" : "subjecteyecolor",
+        "position" : 24,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659674,
+        "width" : 280,
+        "format" : {
+        }
+      }, {
+        "id" : 212347633,
+        "name" : "SubjectHairColor",
+        "dataTypeName" : "text",
+        "fieldName" : "subjecthaircolor",
+        "position" : 25,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659675,
+        "width" : 292,
+        "format" : {
+        }
+      }, {
+        "id" : 212347634,
+        "name" : "SubjectDriverLicState",
+        "dataTypeName" : "text",
+        "fieldName" : "subjectdriverlicstate",
+        "position" : 26,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659676,
+        "width" : 352,
+        "format" : {
+        }
+      }, {
+        "id" : 212347635,
+        "name" : "CreatedDateTime",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "createddatetime",
+        "position" : 27,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 29659677,
+        "width" : 280,
+        "format" : {
+        }
+      }, {
+        "id" : 212347636,
+        "name" : "LastModifiedDateTime",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "lastmodifieddatetime",
+        "position" : 28,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 29659678,
+        "width" : 340,
+        "format" : {
+        }
+      }, {
+        "id" : 212347637,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 29,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29659679,
+        "width" : 208,
+        "format" : {
+        }
+      }, {
+        "id" : 212347638,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 30,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29659680,
+        "width" : 196,
+        "format" : {
+        }
+      }, {
+        "id" : 212347639,
+        "name" : "Zip",
+        "dataTypeName" : "number",
+        "fieldName" : "zip",
+        "position" : 31,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29659681,
+        "width" : 136,
+        "format" : {
+        }
+      }, {
+        "id" : 212347640,
+        "name" : "BlockAddress",
+        "dataTypeName" : "text",
+        "fieldName" : "blockaddress",
+        "position" : 32,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29659682,
+        "width" : 244,
+        "format" : {
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "userId" : "drg7-dhpf"
+      }, {
+        "inherited" : false,
+        "type" : "viewer",
+        "userId" : "8x8r-xmxi"
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Source Information" : {
+            "Source Department" : "NOPD",
+            "Program" : ""
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "7kk9-bewq",
+        "displayName" : "J.B. Raasch",
+        "screenName" : "J.B. Raasch"
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "7kk9-bewq",
+        "displayName" : "J.B. Raasch",
+        "roleName" : "administrator",
+        "screenName" : "J.B. Raasch",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards" ]
+      },
+      "flags" : [ "default", "shared" ]
+    }
+  }
+}

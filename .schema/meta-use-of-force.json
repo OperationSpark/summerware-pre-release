@@ -1,28 +1,28 @@
 {
   "meta" : {
     "view" : {
-      "id" : "iexm-djig",
-      "name" : "Calls for Service",
+      "id" : "u8hj-dmy4",
+      "name" : "Use of Force",
       "averageRating" : 0,
-      "createdAt" : 1435932658,
-      "description" : "NOPD Calls for Service 2011-Present, Including Time of Arrival.",
+      "createdAt" : 1436503918,
+      "description" : "Police Integrity Bureau (PIB) investigations into Officer use of force.",
       "displayType" : "table",
       "downloadCount" : 1,
-      "indexUpdatedAt" : 1436440739,
-      "licenseId" : "PUBLIC_DOMAIN",
+      "indexUpdatedAt" : 1436509914,
       "newBackend" : false,
       "numberOfComments" : 0,
-      "oid" : 12142534,
+      "oid" : 12196453,
       "publicationAppendEnabled" : false,
-      "publicationDate" : 1436423592,
-      "publicationGroup" : 3398188,
+      "publicationDate" : 1436504476,
+      "publicationGroup" : 3503481,
       "publicationStage" : "published",
-      "rowsUpdatedAt" : 1436422403,
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1436504029,
       "rowsUpdatedBy" : "7kk9-bewq",
-      "tableId" : 3456203,
+      "tableId" : 3503481,
       "totalTimesRated" : 0,
-      "viewCount" : 28,
-      "viewLastModified" : 1436423592,
+      "viewCount" : 3,
+      "viewLastModified" : 1436505595,
       "viewType" : "tabular",
       "columns" : [ {
         "id" : -1,
@@ -97,179 +97,198 @@
         "format" : {
         }
       }, {
-        "id" : 212061908,
+        "id" : 212253013,
+        "name" : "PIBFileNum",
+        "dataTypeName" : "text",
+        "fieldName" : "pibfilenum",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29645994,
+        "width" : 220,
+        "format" : {
+        }
+      }, {
+        "id" : 212253014,
         "name" : "NOPD_Item",
         "dataTypeName" : "text",
         "fieldName" : "nopd_item",
-        "position" : 2,
+        "position" : 3,
         "renderTypeName" : "text",
-        "tableColumnId" : 29468311,
+        "tableColumnId" : 29645995,
         "width" : 208,
         "format" : {
         }
       }, {
-        "id" : 212061923,
-        "name" : "Type_",
+        "id" : 212253015,
+        "name" : "ForceType",
         "dataTypeName" : "text",
-        "fieldName" : "type_",
-        "position" : 3,
-        "renderTypeName" : "text",
-        "tableColumnId" : 29468312,
-        "width" : 160,
-        "format" : {
-        }
-      }, {
-        "id" : 212061927,
-        "name" : "TypeText",
-        "dataTypeName" : "text",
-        "fieldName" : "typetext",
+        "fieldName" : "forcetype",
         "position" : 4,
         "renderTypeName" : "text",
-        "tableColumnId" : 29468313,
-        "width" : 196,
+        "tableColumnId" : 29645996,
+        "width" : 208,
         "format" : {
         }
       }, {
-        "id" : 212061928,
-        "name" : "Longitude",
-        "dataTypeName" : "number",
-        "fieldName" : "longitude",
+        "id" : 212253016,
+        "name" : "OccuredDateTime",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "occureddatetime",
         "position" : 5,
-        "rdfProperties" : "",
-        "renderTypeName" : "number",
-        "tableColumnId" : 29468314,
-        "width" : 148,
-        "format" : {
-          "rdf" : "",
-          "precisionStyle" : "standard",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 212061929,
-        "name" : "Latitude",
-        "dataTypeName" : "number",
-        "fieldName" : "latitude",
-        "position" : 6,
-        "renderTypeName" : "number",
-        "tableColumnId" : 29468315,
-        "width" : 148,
-        "format" : {
-          "precisionStyle" : "standard",
-          "align" : "right",
-          "noCommas" : "false"
-        }
-      }, {
-        "id" : 212061930,
-        "name" : "TimeCreate",
-        "dataTypeName" : "calendar_date",
-        "fieldName" : "timecreate",
-        "position" : 7,
         "renderTypeName" : "calendar_date",
-        "tableColumnId" : 29468316,
-        "width" : 220,
-        "format" : {
-        }
-      }, {
-        "id" : 212061931,
-        "name" : "TimeDispatch",
-        "dataTypeName" : "calendar_date",
-        "fieldName" : "timedispatch",
-        "position" : 8,
-        "renderTypeName" : "calendar_date",
-        "tableColumnId" : 29468317,
-        "width" : 244,
-        "format" : {
-        }
-      }, {
-        "id" : 212061932,
-        "name" : "TimeArrival",
-        "dataTypeName" : "calendar_date",
-        "fieldName" : "timearrival",
-        "position" : 9,
-        "renderTypeName" : "calendar_date",
-        "tableColumnId" : 29468318,
-        "width" : 232,
-        "format" : {
-        }
-      }, {
-        "id" : 212061933,
-        "name" : "TimeClosed",
-        "dataTypeName" : "calendar_date",
-        "fieldName" : "timeclosed",
-        "position" : 10,
-        "renderTypeName" : "calendar_date",
-        "tableColumnId" : 29468319,
-        "width" : 220,
-        "format" : {
-        }
-      }, {
-        "id" : 212061934,
-        "name" : "Disposition",
-        "dataTypeName" : "text",
-        "fieldName" : "disposition",
-        "position" : 11,
-        "renderTypeName" : "text",
-        "tableColumnId" : 29468320,
-        "width" : 232,
-        "format" : {
-        }
-      }, {
-        "id" : 212061935,
-        "name" : "DispositionText",
-        "dataTypeName" : "text",
-        "fieldName" : "dispositiontext",
-        "position" : 12,
-        "renderTypeName" : "text",
-        "tableColumnId" : 29468321,
+        "tableColumnId" : 29645997,
         "width" : 280,
         "format" : {
         }
       }, {
-        "id" : 212061936,
-        "name" : "BLOCK_ADDRESS",
+        "id" : 212253017,
+        "name" : "Disposition",
         "dataTypeName" : "text",
-        "fieldName" : "block_address",
-        "position" : 13,
+        "fieldName" : "disposition",
+        "position" : 6,
         "renderTypeName" : "text",
-        "tableColumnId" : 29468322,
+        "tableColumnId" : 29645998,
+        "width" : 232,
+        "format" : {
+        }
+      }, {
+        "id" : 212253018,
+        "name" : "OfficerYearsEmployed",
+        "dataTypeName" : "number",
+        "fieldName" : "officeryearsemployed",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29645999,
+        "width" : 340,
+        "format" : {
+        }
+      }, {
+        "id" : 212253019,
+        "name" : "OfficerRace",
+        "dataTypeName" : "text",
+        "fieldName" : "officerrace",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29646000,
+        "width" : 232,
+        "format" : {
+        }
+      }, {
+        "id" : 212253020,
+        "name" : "OfficerGender",
+        "dataTypeName" : "text",
+        "fieldName" : "officergender",
+        "position" : 9,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29646001,
         "width" : 256,
         "format" : {
         }
       }, {
-        "id" : 212061937,
+        "id" : 212253021,
+        "name" : "OfficerAssignment",
+        "dataTypeName" : "text",
+        "fieldName" : "officerassignment",
+        "position" : 10,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29646002,
+        "width" : 304,
+        "format" : {
+        }
+      }, {
+        "id" : 212253022,
+        "name" : "CitizenAge",
+        "dataTypeName" : "number",
+        "fieldName" : "citizenage",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29646003,
+        "width" : 220,
+        "format" : {
+        }
+      }, {
+        "id" : 212253023,
+        "name" : "CitizenGender",
+        "dataTypeName" : "text",
+        "fieldName" : "citizengender",
+        "position" : 12,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29646004,
+        "width" : 256,
+        "format" : {
+        }
+      }, {
+        "id" : 212253024,
+        "name" : "CitizenRace",
+        "dataTypeName" : "text",
+        "fieldName" : "citizenrace",
+        "position" : 13,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29646005,
+        "width" : 232,
+        "format" : {
+        }
+      }, {
+        "id" : 212253025,
+        "name" : "Longitude",
+        "dataTypeName" : "number",
+        "fieldName" : "longitude",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29646006,
+        "width" : 208,
+        "format" : {
+        }
+      }, {
+        "id" : 212253026,
+        "name" : "Latitude",
+        "dataTypeName" : "number",
+        "fieldName" : "latitude",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 29646007,
+        "width" : 196,
+        "format" : {
+        }
+      }, {
+        "id" : 212253027,
         "name" : "Zip",
         "dataTypeName" : "number",
         "fieldName" : "zip",
-        "position" : 14,
-        "rdfProperties" : "",
+        "position" : 16,
         "renderTypeName" : "number",
-        "tableColumnId" : 29468323,
+        "tableColumnId" : 29646008,
         "width" : 136,
         "format" : {
-          "rdf" : "",
           "precisionStyle" : "standard",
-          "noCommas" : "true",
-          "align" : "right"
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 212253028,
+        "name" : "BlockAddress",
+        "dataTypeName" : "text",
+        "fieldName" : "blockaddress",
+        "position" : 17,
+        "renderTypeName" : "text",
+        "tableColumnId" : 29646009,
+        "width" : 244,
+        "format" : {
         }
       } ],
       "grants" : [ {
         "inherited" : false,
         "type" : "viewer",
-        "userId" : "drg7-dhpf"
+        "userId" : "8x8r-xmxi"
       }, {
         "inherited" : false,
         "type" : "viewer",
-        "userId" : "8x8r-xmxi"
+        "userId" : "drg7-dhpf"
       } ],
-      "license" : {
-        "name" : "Public Domain"
-      },
       "metadata" : {
         "custom_fields" : {
           "Source Information" : {
-            "Source Department" : "NOPD",
-            "Program" : ""
+            "Source Department" : "NOPD"
           }
         },
         "renderTypeConfig" : {
@@ -277,7 +296,10 @@
             "table" : true
           }
         },
-        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
       },
       "owner" : {
         "id" : "7kk9-bewq",
