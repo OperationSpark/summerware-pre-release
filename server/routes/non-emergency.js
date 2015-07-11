@@ -10,6 +10,7 @@
  * console.log(req.query) => {$limit: 10, issue_type: "Street Flooding/Drainage"}
  */
 module.exports = function(socrata) {
+    console.log('non-emergency route initialized');
     var url = socrata.url('311');
     
     return {
