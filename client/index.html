@@ -41,7 +41,6 @@
                 <p><button class="btn btn-small" id="add-parameter" ng-click="addParam()">Add another parameter</button></p>
                 <p><button class="btn btn-medium btn-primary" id="send" ng-click="send()">Send Request...</button></p>
               </div>
-              <div id="map-canvas"></div>
               <json-explorer data="records"></json-explorer>
             </div>
           </div>
@@ -88,7 +87,6 @@
                 function (data) {
                   $scope.records = data;
                   console.log(data);
-                  showDataOnMap(data);
                 },
                 function( errorMessage ) {
                     console.warn( errorMessage );
@@ -126,12 +124,6 @@
             return(response.data);
         }
       });
-    </script>
-
-    <script type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js">
-    </script>
-    <script type="text/javascript" src="js/map.js">
     </script>
   </body>
 </html>
